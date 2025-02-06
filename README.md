@@ -10,27 +10,18 @@ Avant de lancer le projet, assure-toi d’avoir installé :👉 XAMPP (ou tout a
 
 ⚙️ Installation et Configuration
 
-Cloner le projet
+1-Cloner le projet:
+- git clone https://github.com/Abdelkrim-Ghilas/Sys-Authentification-en-PHP-MySQL.git
+- cd auth_system_php
 
-git clone https://github.com/Abdelkrim-Ghilas/Sys-Authentification-en-PHP-MySQL.git
-cd auth_system_php
+2-Démarrer Apache et MySQL (via XAMPP ou en ligne de commande)
 
-Démarrer Apache et MySQL (via XAMPP ou en ligne de commande)
+3-Créer la base de données
 
-Créer la base de données
+4-Ouvre phpMyAdmin
 
-Ouvre phpMyAdmin
+5-Crée une nouvelle base de données auth_system en exécutant le fichier database.sql (fourni dans le projet) pour créer les tables
 
-Crée une nouvelle base de données auth_system
-
-Exécute le fichier database.sql (fourni dans le projet) pour créer les tables
-
-Configurer la connexion à la base de donnéesModifie le fichier config.php si nécessaire :
-
-$host = "localhost";
-$user = "root"; // Utilisateur MySQL (par défaut root sur XAMPP)
-$password = ""; // Mot de passe (laisser vide sur XAMPP)
-$dbname = "auth_system"; // Nom de la base de données
 
 Lancer le projet
 
@@ -42,4 +33,8 @@ http://localhost/auth_system_php/
 
 🛠️ Fonctionnalités
 
-✔️ Inscription et connexion sécurisées✔️ Protection contre les injections SQL, XSS et CSRF✔️ Hashage des mots de passe avec password_hash()✔️ Gestion des sessions sécurisée✔️ UI modernisée avec Bootstrap
+✔️ Inscription et connexion sécurisées
+✔️ Protection contre les injections SQL, XSS et CSRF
+✔️ Hashage des mots de passe avec password_hash()
+✔️ Gestion des sessions sécurisée
+
