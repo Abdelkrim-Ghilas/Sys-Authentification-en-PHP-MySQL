@@ -12,7 +12,7 @@ Avant de lancer le projet, assure-toi d’avoir installé :👉 XAMPP (ou tout a
 
 Cloner le projet
 
-git clone https://github.com/TON-NOM-DUTILISATEUR/auth_system_php.git
+git clone https://github.com/Abdelkrim-Ghilas/Sys-Authentification-en-PHP-MySQL.git
 cd auth_system_php
 
 Démarrer Apache et MySQL (via XAMPP ou en ligne de commande)
